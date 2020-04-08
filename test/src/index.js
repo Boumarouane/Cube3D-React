@@ -3,6 +3,10 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import * as THREE from "three";
 
+const style = {
+  height: 250 // we can control scene size by setting container dimensions
+};
+
 class App extends Component {
 
   componentDidMount() {
